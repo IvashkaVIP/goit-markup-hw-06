@@ -612,11 +612,11 @@ body {
 
 .check-text {
   display: flex;
-  color: #757575;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
+  color: #757575;
 }
 .check-text span {
   display: flex;
