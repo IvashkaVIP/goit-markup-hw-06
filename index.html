@@ -437,10 +437,23 @@
 
           <div class="modal-field">
             <label for="user-text" class="modal-input-text">Comment</label>
-
             <!-- <input type="text" class="modal-input" name="user-comment" id="user-comment" placeholder="Text input"> -->
+            <textarea
+              name="user-text"
+              class="modal-comment"
+              id="user-text"
+              placeholder="Text input"
+            ></textarea>
+          </div>
 
-            <textarea name="user-text" class="modal-comment" id="user-text" placeholder="Text input"></textarea>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              class="modal-check"
+              id="policy"
+              name="policy"
+              value="true"
+            />
           </div>
 
           <button type="submit" class="modal-btn">Send</button>
