@@ -654,7 +654,23 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn.btn:focus,
-.modal-btn.btn:hover {
+.modal-btn.btn:is(:focus, :hover){
   background-color: var(--active-btn-color);
+}
+.footer-subscribe{
+  display: flex;
+}
+.footer-btn.btn{
+  display: flex;
+  margin-right: 0px;
+  padding: 8px 24px;
+  color: var(--light-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.icon-letter{
+  margin-left: 16px;
+  fill: white;
 }
