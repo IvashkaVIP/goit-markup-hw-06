@@ -576,10 +576,10 @@ body {
   letter-spacing: 0.04em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-comment::placeholder {
+/* .modal-comment::placeholder {
   padding-top: 8px;
   padding-left: 16px;
-}
+} */
 
 .modal-input-text {
   margin-bottom: 4px;
@@ -601,9 +601,11 @@ body {
 .modal-comment {
   width: 100%;
   height: 138px;
+  padding-top: 8px;
+  padding-left: 16px;
+  resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  resize: none;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
